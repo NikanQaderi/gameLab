@@ -1,33 +1,10 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
+    cursor: url(../Rain-Blood-Chronicles-Mirage/cursor.png),auto;
+    box-sizing: border-box;
 }
-@font-face {
-    font-family: anime;
-    src: url("Rain-Blood-Chronicles-Mirage/font/animeace2bb_ot/animeace2_bld.otf");
+body{
+    overflow: hidden;
 }
-#gameMenuPage{
-    background: url("Rain-Blood-Chronicles-Mirage/mainPage.png");
-    background-size: 100%;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-#menuButtons{
-    position: absolute;
-    font-family: anime;
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    height: fit-content;
-    top: 240px;
-    left: 180px;
-    font-size: 25px;
-    color: white;
-    gap: 20px;
-    text-align: center;
-    white-space: nowrap;
-}
-#menuButtons > span:hover{
-    color: rgb(236, 63, 63);
-}
+

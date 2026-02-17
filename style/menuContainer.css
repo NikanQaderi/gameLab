@@ -1,0 +1,55 @@
+@font-face {
+    font-family: anime;
+    src: url("/Rain-Blood-Chronicles-Mirage/font/animeace2bb_ot/animeace2_bld.otf");
+}
+#gameMenuPage{
+    background-size: 100%;
+    width: 100%;
+    height: 99.8vh;
+    position: relative;
+    animation:menuBackground 2s infinite;
+
+}
+#gameMenuPage:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background: 
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/1.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/2.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/3.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/4.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/5.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/6.png"),
+        url("/Rain-Blood-Chronicles-Mirage/MainPage/7.png");
+}
+#menuButtons{
+    position: absolute;
+    font-family: anime;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    top: 240px;
+    left: 180px;
+    font-size: 25px;
+    color: white;
+    gap: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+#menuButtons > span:hover{
+    color: rgb(236, 63, 63);
+    
+}
+@keyframes menuBackground {
+    0%, 14.28% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/1.png"); }
+    14.29%, 28.57% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/2.png"); }
+    28.58%, 42.85% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/3.png"); }
+    42.86%, 57.14% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/4.png"); }
+    57.15%, 71.42% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/5.png"); }
+    71.43%, 85.71% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/6.png"); }
+    85.72%, 100% { background-image: url("/Rain-Blood-Chronicles-Mirage/MainPage/7.png"); }
+}
