@@ -36,7 +36,6 @@
 #checklistContainer{
     display: flex;
     margin: 0 auto;
-    margin-top: 20px;
     gap: 50px;
 }
 .checkListSetting{
@@ -54,4 +53,26 @@
 .checkListSetting > img{
     width: 30%;
     height: 100%;
+}
+#practicalSettingContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.practicalSettingItem{
+    border: 1px solid red;
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
+    background: url(../Rain-Blood-Chronicles-Mirage/setting/shadow1.png) no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: anime;
+}
+.practicalSettingItem > img{
+    height:40px;
+    width: 600px;
 }
