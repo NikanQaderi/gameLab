@@ -1,0 +1,40 @@
+#eventVideos{
+    border:1px solid red;
+    width:100%;
+    height:100%;
+    background:url(Rain-Blood-Chronicles-Mirage/eventVideos/bg2.png);
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+    position: relative;
+    
+
+}
+
+#eventVideos > .row{
+    display:flex;
+    justify-content: center;
+    gap:45px;
+}
+
+#eventVideos >.row >.videos{
+    position: relative;
+    width:210px;
+    height:150px;
+
+}
+#eventVideos >.row >.videos img{
+    position: absolute;
+    width:100%;
+    height:100%;
+
+}
+#eventVideos >.row >.videos > .redCrown{
+    opacity:0;
+    transition: 0.3s ease;
+}
+#eventVideos >.row >.videos:hover > .redCrown{
+    opacity:1;
+}
