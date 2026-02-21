@@ -15,17 +15,18 @@
 <body>
 
     <div id="gameMenuPage">
+
         <div id="menuButtons">
-            <div>NEW GAME</div>
-            <div>LOAD GAME</div>
-            <div id="menuSetting">SETTING</div>
-            <div id="menuEventVideos">EVENT VIDEOS </div>
-            <div id="menuTrophies">TROPHIES</div>
-            <div id="menuCredit">CREDIT </div>
-            <div id="menuExit">EXIT </div>
+            <span>NEW GAME</span>
+            <span>LOAD GAME</span>
+            <span id="menuSetting">SETTING</span>
+            <span id="menuEventVideos">EVENT VIDEOS </span>
+            <span id="menuTrophies">TROPHIES</span>
+            <span id="menuCredit">CREDIT </span>
+            <span id="menuExit">EXIT </span>
         </div>
-        <!-- 
-        <div id="Setting">
+
+        <div id="Setting" class="hidePage">
             <div class="resolutiongraphicContainer">
                 <span class="SettingText">RESOLUTION</span>
                 <span class="SettingText"><img src="Rain-Blood-Chronicles-Mirage/setting/left.png" alt=""></span>
@@ -71,21 +72,20 @@
                     KEY SETTINGS
                 </div>
             </div>
+            <div id="settingConfirmButton" onclick="showMenuButtons">CONFIRM</div>
         </div>
- -->
+
+
+
+        <!--         
         <div id="eventVideos">
-            <!-- <div class="row">
-                <div class="videos">
-                    <img class="whiteCrown" src="Rain-Blood-Chronicles-Mirage/eventVideos/1.png" alt="">
-                    <img class="redCrown" src="Rain-Blood-Chronicles-Mirage/eventVideos/red01.png" alt="">
-                </div>
-            </div>
-        -->
 
         </div>
+ -->
     </div>
 
 </body>
-<script src=eventVideos.js></script>
+<script src=script/eventVideos.js></script>
+<script src="script/setting.js"></script>
 
 </html>
