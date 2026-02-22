@@ -15,14 +15,12 @@
 }
 
 #eventVideos > .row{
-    /* border:1px solid red; */
     display:flex;
     justify-content: center;
     gap:45px;
 }
 
 #eventVideos >.row >.videos{
-    /* border:1px solid red; */
     position: relative;
     width:210px;
     height:150px;

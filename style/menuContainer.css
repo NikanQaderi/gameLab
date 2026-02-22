@@ -8,7 +8,6 @@
     height: 99.8vh;
     position: relative;
     animation:menuBackground 2s infinite;
-
 }
 #gameMenuPage:before {
     content: "";
