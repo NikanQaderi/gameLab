@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="game.css">
     <link rel="stylesheet" href="/style/setting.css">
     <link rel="stylesheet" href="/style/eventVideos.css">
+    <link rel="stylesheet" href="style/level1/background.css">
 
 </head>
 
 <body>
 
+    <!-- 
     <div id="gameMenuPage">
 
         <div id="menuButtons">
@@ -28,24 +30,9 @@
 
         <div id="Setting" class="hidePage">
 
-            <div class="resolutiongraphicContainer">
-                <span class="SettingText">RESOLUTION</span>
-                <span class="SettingText"><img src="Rain-Blood-Chronicles-Mirage/setting/left.png" alt=""></span>
-                <span class="SettingText">1280*720</span>
-                <span class="SettingText">1360*768</span>
-                <span class="SettingText">1366*768</span>
-                <span class="SettingText">1600*900</span>
-                <span class="SettingText">1920*1080</span>
-                <span class="SettingText"><img src="Rain-Blood-Chronicles-Mirage/setting/right.png" alt=""></span>
-            </div>
-            <div id="QualityContainer" class="resolutiongraphicContainer">
-                <span class="SettingText">GRAPHIC QUAlity</span>
-                <span class="SettingText">LOWEST</span>
-                <span class="SettingText">LOW</span>
-                <span class="SettingText">MEDIUM</span>
-                <span class="SettingText">HIGH</span>
-                <span class="SettingText">HIGHEST</span>
-            </div>
+            <div class="resolutiongraphicContainer"></div>
+            <div class="resolutiongraphicContainer" id="QualityContainer"></div>
+
             <div id="checklistContainer">
                 <div class="checkListSetting">
                     <img src="Rain-Blood-Chronicles-Mirage/setting/circle-red.png" alt="">
@@ -76,8 +63,6 @@
             <div id="settingConfirmButton">CONFIRM</div>
         </div>
 
-
-
         <div id="eventVideosContainer">
             <div id="eventVideos">
                 <div class="eventbackButton"></div>
@@ -85,8 +70,21 @@
         </div>
 
     </div>
+    -->
+
+    <div id="level1pageContainer">
+        <img src="Rain-Blood-Chronicles-Mirage/Level01Ground/level01Bg.png" alt="">
+        <div class="level1ground"></div>
+        <div id="player"></div>
+        <div id="enemy1"></div>
+    </div>
+
+
+
+
 </body>
 <script src=script/eventVideos.js></script>
 <script src="script/pageHandling.js"></script>
+<script src="script/settings.js"></script>
 
 </html>

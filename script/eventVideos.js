@@ -33,7 +33,6 @@ let eventVideosData = [[{ whiteCrown: "Rain-Blood-Chronicles-Mirage/eventVideos/
             let videoBox=document.createElement("div");
                 videoBox.classList.add("videos");
 
-            
             let whiteCrown=document.createElement("img");
                 whiteCrown.src=videoCover.whiteCrown;
 
