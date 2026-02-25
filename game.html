@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="/style/setting.css">
     <link rel="stylesheet" href="/style/eventVideos.css">
     <link rel="stylesheet" href="style/level1/background.css">
-
+    <link rel="stylesheet" href="style/characters/player/playerrunwalk.css">
 </head>
 
 <body>
 
-    <!-- 
+
     <div id="gameMenuPage">
 
         <div id="menuButtons">
-            <span>NEW GAME</span>
+            <span id="menuNewGame">NEW GAME</span>
             <span>LOAD GAME</span>
             <span id="menuSetting">SETTING</span>
             <span id="menuEventVideos">EVENT VIDEOS </span>
@@ -70,12 +70,12 @@
         </div>
 
     </div>
-    -->
+
 
     <div id="level1pageContainer">
         <img src="Rain-Blood-Chronicles-Mirage/Level01Ground/level01Bg.png" alt="">
         <div class="level1ground"></div>
-        <div id="player"></div>
+        <div id="player" class="walkRight"></div>
         <div id="enemy1"></div>
     </div>
 
@@ -86,5 +86,6 @@
 <script src=script/eventVideos.js></script>
 <script src="script/pageHandling.js"></script>
 <script src="script/settings.js"></script>
+<script src="script/Actions.js"></script>
 
 </html>

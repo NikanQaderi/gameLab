@@ -1,0 +1,88 @@
+
+#player{
+    border: 1px solid red;
+    width: 70px;
+    height: 160px;
+    background-size: 100% 100%;
+    /* animation:standingRight 2s infinite; */
+    position: absolute;
+    bottom: 200px;
+    left: 102px;
+}
+
+
+
+.walkRight{
+	animation:playerwalkRight 1.5s infinite;
+    background-repeat: no-repeat;
+    background-position: center;	
+}
+.walkLeft{
+	animation:playerwalkLeft 1s infinite;	
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.playerJumpRight{
+	animation:playerJumpRight 2s infinite;	
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.playerJumpLeft{
+	animation:playerJumpLeft 2s infinite;	
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes playerwalkRight{
+    0%, 9.09% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/2.png) }
+    9.10%, 18.18% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-right/3.png); }
+    18.19%, 27.27% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-right/4.png) }
+    27.28%, 36.36% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/5.png) }
+    36.37%, 45.45% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/6.png) }
+    45.46%, 54.54% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/7.png) }
+    54.55%, 63.63% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-right/8.png) }
+    63.64%, 72.72% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/9.png) }
+    72.73%, 81.81% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-right/10.png) }
+    81.82%, 90.90% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-right/11.png); }
+    90.91%, 100% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-right/12.png) }
+}
+@keyframes playerwalkLeft{
+
+    0%, 9.09% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/2.png) }
+    9.10%, 18.18% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/3.png); }
+    18.19%, 27.27% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/4.png) }
+    27.28%, 36.36% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-left/5.png) }
+    36.37%, 45.45% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-left/6.png) }
+    45.46%, 54.54% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-left/7.png) }
+    54.55%, 63.63% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/8.png) }
+    63.64%, 72.72% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-left/9.png) }
+    72.73%, 81.81% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/10.png) }
+    81.82%, 90.90% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/run-left/11.png); }
+    90.91%, 100% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/run-left/12.png) }
+}
+
+@keyframes playerJumpRight {
+    0%, 16.66% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/jump-right/1.png) }
+    16.67%, 33.33% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-right/2.png) }
+    33.34%, 50% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-right/3.png) }
+    50.01%, 66.66% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-right/4.png) }
+    66.67%, 83.33% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-right/5.png) }
+    83.34%, 100% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-right/6.png) }
+}
+@keyframes playerJumpLeft {
+    0%, 16.66% { background-image:url(../../../Rain-Blood-Chronicles-Mirage/jump-left/1.png) }
+    16.67%, 33.33% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-left/2.png) }
+    33.34%, 50% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-left/3.png) }
+    50.01%, 66.66% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-left/4.png) }
+    66.67%, 83.33% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-left/5.png) }
+    83.34%, 100% { background-image: url(../../../Rain-Blood-Chronicles-Mirage/jump-left/6.png) }
+}
+
+@keyframes standingRight {
+    0%,49.99% {background-image: url(../../Rain-Blood-Chronicles-Mirage/standing/right1.png);
+    background-repeat: no-repeat;
+    background-position: center;}
+    50%,100% {background-image: url(../../Rain-Blood-Chronicles-Mirage/standing/right2.png);
+    background-repeat: no-repeat;
+    background-position: center;}
+}

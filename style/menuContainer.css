@@ -8,6 +8,7 @@
     height: 100vh;
     position: relative;
     animation:menuBackground 2s infinite;
+    display: block;
 }
 #gameMenuPage:before {
     content: "";
